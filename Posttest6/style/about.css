@@ -1,0 +1,35 @@
+bodi, html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+section {
+    color: #04DA8D;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 280px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.about h1, p{
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.about h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 20px 10px 20px;
+    transition: color 0.3s ease;
+}
+
+.about p {
+    font-size: 15px;
+    margin: 10px 20px 10px 20px;
+    transition: color 0.3s ease;
+}
+
+.light-theme section {
+    color: #000000;
+}

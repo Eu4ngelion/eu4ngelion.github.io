@@ -1,0 +1,207 @@
+.review-section{
+    background-color: rgba(128, 255, 0, 0);
+}
+
+.review-iem-title{
+    font-weight: bold;
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+.review-image{
+  width: 20%;
+  height: auto; 
+}
+
+.review-subtitle{
+    font-weight: bold;
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.review-subtitle{
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+
+.review-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0 10px 0;
+    width: 70%;
+    height: 100%;   
+    transition: background-color 1s ease, color 1s ease;
+}
+
+.review-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    margin:5px 0 5px 0;
+
+    width: 100%;    
+    transition: background-color 1s ease, color 1s ease;
+
+    border-left : 2px solid #04da8ccb;
+    border-bottom: 2px solid #04da8ccb;   
+    border-right: 2px solid #04da8ccb;
+}
+.light-theme .review-row {
+    background-color: #000000;
+    border-left : 2px solid #000000cb   ;
+    border-bottom: 2px solid #000000cb;
+}
+
+.review-author {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Helvetica, Arial, sans-serif;
+    width: 100%;
+    color : #000000;
+    align-self : flex-start;
+    background-color: #04da8ccb;
+    transition: background-color 1s ease, color 1s ease;
+}
+
+.light-theme .review-author {
+    color: #04DA8D;
+    background-color : #000000;
+}
+
+
+.review-text{
+    display : flex;
+    flex-direction: column; 
+    font-size: 20px;    
+    font-weight: bold;
+    font-family: Helvetica, Arial, sans-serif;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    color: #04DA8D;
+    background-color: #000000;
+    transition: background-color 1s ease, color 1s ease;
+    word-wrap: break-word;
+}
+
+.light-theme .review-text {
+    color: #000000; 
+    background-color : #04DA8D;
+}
+
+.review-text a{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Helvetica, Arial, sans-serif;
+    text-wrap: wrap;
+    margin: 0;
+    text-decoration: none;
+    color: #04DA8D;
+    transition: background-color 1s ease, color 1s ease;
+}
+
+.review-image {
+    width: 40%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.add-review-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0 10px 0;
+    width: 100%;
+    height: 100%;   
+    transition: background-color 1s ease, color 1s ease;
+}
+
+.review-create {
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: Helvetica, Arial, sans-serif;
+    margin : 10px 0 0 10px;  
+    padding: 0;
+    width: 70%;
+    height: auto;
+    min-height: 100px;
+    color: #000000;
+    background-color: #04DA8D;
+    border : 2px solid #000000;
+    transition: background-color 1s ease, color 1s ease;
+}
+
+.light-theme .review-create {
+    color: #04DA8D;
+    background-color : #000000;
+    border: 2px solid #04DA8D;
+}
+
+#review-form {
+    display : flex;
+    flex-direction: column;;
+    align-items: center;
+    width : 80%;
+}
+
+.review-textarea {
+    font-size: 18px;
+    font-family: Helvetica, Arial, sans-serif;
+    margin : 10px 0 0 10px;  
+    padding: 0;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    min-height: 100px;
+    color: #000000;
+    background-color: rgb(255, 255, 255);
+    border : 2px solid #04DA8D;
+    transition: background-color 1s ease, color 1s ease;
+}
+
+.light-theme .review-textarea {
+    color: #000000;
+    border: 2px solid #04DA8D;
+}
+
+.review-submit {
+    font-size: 18px;
+    font-family: Helvetica, Arial, sans-serif;
+    margin : 10px 0 20px 0;  
+    padding: 0;
+    width:30%;
+    height: 30px;
+    color: #000000;
+    transition: background-color 1s ease, color 1s ease;
+    cursor: pointer;
+}   
+
+.image-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    justify-self: center;
+    margin: 0px 0 10px 0;   
+}
+
+.button {
+    cursor: pointer;
+}
