@@ -53,7 +53,7 @@
                         <!-- Input file image -->
                      <div class="edit-image-container">
                         <label for="review-image"><b>Upload Image<b></label>
-                        <input type="file" class="image-box" name="review-image" id="review-image" required><br>
+                        <input type="file" class="image-box" name="review-image" id="review-image"><br>
                         <img src="images/<?php echo $rev['foto'] ?>" alt="images<?php $rev['foto']?>" class="image-preview" id="image-preview" alt="Image Preview">
                     </div>
                     <button class="submit" type="submit" style="margin-bottom: 10px">Submit</button>
@@ -102,29 +102,29 @@
                 else {
                     move_uploaded_file($tmp_name, 'images/' . $file_name);
                     unlink ('images/' . $old_img); // hapus file lama
-                    $query = "UPDATE review SET review = '$review', foto = '$file_name' WHERE id_review = $id_review";
-                    $result = mysqli_query($conn, $query);
-
-                    if ($result) {
-                        $query_iem = "SELECT id_iem FROM review WHERE id_review = $id_review";
-                        $result_iem = mysqli_query($conn, $query_iem);
-                        $row_iem = mysqli_fetch_assoc($result_iem);
-                        $id_iem = $row_iem['id_iem'];
-                        echo "
-                            <script>
-                                alert('Berhasil mengubah review');
-                                document.location.href = 'review.php?id_iem=$id_iem';
-                            </script>";
-                    } else {
-                        echo "
-                            <script>
-                                alert('Gagal mengubah review');
-                                document.location.href = 'edit_review.php?id_review=$id_review';
-                            </script>";
-                    }
                 }
             }
-        }
+                $query = "UPDATE review SET review = '$review', foto = '$file_name' WHERE id_review = $id_review";
+                $result = mysqli_query($conn, $query);
+
+                if ($result) {
+                    $query_iem = "SELECT id_iem FROM review WHERE id_review = $id_review";
+                    $result_iem = mysqli_query($conn, $query_iem);
+                    $row_iem = mysqli_fetch_assoc($result_iem);
+                    $id_iem = $row_iem['id_iem'];
+                    echo "
+                        <script>
+                            alert('Berhasil mengubah review');
+                            document.location.href = 'review.php?id_iem=$id_iem';
+                        </script>";
+                } else {
+                    echo "
+                        <script>
+                            alert('Gagal mengubah review');
+                            document.location.href = 'edit_review.php?id_review=$id_review';
+                        </script>";
+                }
+            }
     ?>
 </main>
 
