@@ -3,20 +3,16 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
+        <title>Injil's Portofolio</title>
         <link href="./output.css" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
     </head>
     <body class="font-poppins mx-4 bg-neutral-900 text-white sm:mx-10 md:mx-20">
-        <!-- media query tracker -->
-        <div class="top:0 left:0 fixed bg-sky-500 md:bg-emerald-500 lg:bg-yellow-500 xl:bg-orange-500 2xl:bg-red-500">media query tracker</div>
-
-        <header class="sticky top-0 left-0 z-10 flex w-full items-start justify-center pt-5">
+        <header class="top-0 left-0 z-10 mb-10 flex w-full items-start justify-center pt-5 sm:sticky">
             <ul class="flex flex-wrap items-center justify-center rounded-full border border-orange-500 bg-neutral-950">
                 <li class="">
                     <a href="#hero">
                         <button class="flex items-center justify-center space-x-1 rounded-full px-3 py-1 transition duration-250 ease-in-out hover:bg-orange-600">
-                            <img src="./assets/image/profile.png" alt="Alien Icon" class="h-5 w-5" />
                             <span class="text-sm font-semibold text-white">Home</span>
                         </button>
                     </a>
@@ -24,7 +20,6 @@
                 <li class="">
                     <a href="#about-me">
                         <button class="flex items-center justify-center space-x-1 rounded-full px-3 py-1 transition duration-250 ease-in-out hover:bg-orange-600">
-                            <img src="./assets/image/profile.png" alt="Alien Icon" class="h-5 w-5" />
                             <span class="text-sm font-semibold text-white">About Me</span>
                         </button>
                     </a>
@@ -32,7 +27,6 @@
                 <li class="">
                     <a href="#project">
                         <button class="flex items-center justify-center space-x-1 rounded-full px-3 py-1 transition duration-250 ease-in-out hover:bg-orange-600">
-                            <img src="./assets/image/profile.png" alt="Alien Icon" class="h-5 w-5" />
                             <span class="text-sm font-semibold text-white">Project</span>
                         </button>
                     </a>
@@ -44,7 +38,7 @@
         <section class="mx-40 flex h-screen flex-col items-center justify-center pb-10 text-center" id="hero">
             <!-- Profile Picture + Name + Location -->
             <div class="mb-4 flex flex-row items-center justify-center space-x-4">
-                <img src="./assets/image/profile.png" alt="Profile Picture" class="h-8 w-8 rounded-full xl:h-12 xl:w-12" />
+                <img src="./assets/image/profile.jpeg" alt="Profile Picture" class="h-8 w-8 rounded-full xl:h-12 xl:w-12" />
                 <div class="flex flex-col items-start justify-center">
                     <span class="text-[12px] font-bold text-white xl:text-lg">Injil Karepowan</span>
                     <span class="text-[10px] font-bold text-white xl:text-sm">
@@ -63,8 +57,6 @@
                     <span class="text-orange-600">Data Engineering </span>
                     <span class="text-white">Enthuciast </span>
                 </h1>
-
-                <p class="text-md mt-3 font-semibold text-gray-300 xl:text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
             </div>
 
             <!-- Buttons -->
@@ -72,7 +64,7 @@
                 <a href="./assets/file/cv.pdf" target="_blank">
                     <button class="mt-2 animate-[bounce_1.2s_infinite] rounded-full bg-orange-600 px-4 py-1 text-xs text-white transition ease-in-out hover:scale-110 md:text-base">
                         Download CV
-                        <img src="./assets/image/download.png" alt="Icon" class="inline h-5 w-5" />
+                        <img src="./assets/icons/download.svg" alt="Download.svg" class="inline h-4 w-4" />
                     </button>
                 </a>
             </div>
@@ -86,9 +78,8 @@
                     <div class="items-centerlg:items-start flex w-full flex-col justify-center lg:max-w-1/2">
                         <h1 class="text-center text-4xl font-bold text-orange-600 lg:text-start">About Me</h1>
                         <p class="mt-4 text-justify text-base font-semibold text-gray-300">
-                            Hi, Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores excepturi deleniti, sunt cupiditate officiis tenetur ab. Numquam expedita, totam rerum molestias non
-                            voluptate esse nobis provident quibusdam libero quis maiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, consequatur repellat. Quod id qui modi iste
-                            animi, neque quos repellat, molestiae, totam exercitationem beatae! Odit perspiciatis maxime nemo laudantium ex!
+                            Hello, I'm Injil Karepowan, a 4th-semester student at Mulawarman University, Samarinda. Passionate about technology, I specialize in backend development, database
+                            management, data engineering, UI/UX design, and frontend development.
                         </p>
                         <div class="mt-5 flex justify-center space-x-4 lg:justify-start">
                             <!-- Social Links -->
@@ -99,23 +90,20 @@
                                     class="h-8 w-8 rounded-full transition-transform duration-200 ease-in hover:scale-130 hover:rotate-20"
                                 />
                             </a>
-                            <a href="https://github.com/Eu4ngelion" target="_blank">
+                            <a href="https://www.linkedin.com/in/injil-karepowan/" target="_blank">
                                 <img src="assets/icons/linkedin_icon.png" alt="LinkedIn" class="h-8 w-8 rounded-full transition-transform duration-200 ease-in hover:scale-130 hover:rotate-20" />
                             </a>
                             <a href="https://wa.me/6281380093631" target="_blank">
                                 <img src="assets/icons/whatsapp_icon.png" alt="Whatsapp" class="h-8 w-8 rounded-full transition-transform duration-200 ease-in hover:scale-130 hover:rotate-20" />
                             </a>
-                            <a href="https://github.com/Eu4ngelion" target="_blank">
-                                <img src="assets/icons/twitter.png" alt="Twitter" class="h-8 w-8 rounded-full transition-transform duration-200 ease-in hover:scale-130 hover:rotate-20" />
-                            </a>
-                            <a href="https://github.com/Eu4ngelion" target="_blank">
+                            <a href="https://www.instagram.com/euangel.ion/" target="_blank">
                                 <img src="assets/icons/instagram.png" alt="Instagram" class="h-8 w-8 rounded-full transition-transform duration-200 ease-in hover:scale-130 hover:rotate-20" />
                             </a>
                         </div>
                     </div>
 
                     <figure>
-                        <img src="./assets/image/profile.png" alt="Profile Picture" class="aspect-square h-50 w-50 rounded-full" />
+                        <img src="./assets/image/profile.jpeg" alt="Profile Picture" class="aspect-square h-50 w-50 rounded-full" />
                     </figure>
                 </div>
 
@@ -128,9 +116,29 @@
 
                     <div class="my-2 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
                         <!-- Skill Card -->
+
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="blank">
+                            <div class="flex h-14 items-center justify-start space-x-2 rounded-md bg-stone-800 p-2 pr-5 transition-transform duration-200 ease-in-out hover:scale-110 xl:h-auto">
+                                <img src="./assets/icons/html-logo.svg" alt="Skill Icon" class="h-6 w-6 rounded-b-md xl:h-10 xl:w-10" />
+                                <div>
+                                    <h4 class="text-sm font-semibold text-white">HTML</h4>
+                                    <p class="text-[10px] text-gray-400">Markup Language</p>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="https://tailwindcss.com" target="blank">
+                            <div class="flex h-14 items-center justify-start space-x-2 rounded-md bg-stone-800 p-2 pr-5 transition-transform duration-200 ease-in-out hover:scale-110 xl:h-auto">
+                                <img src="./assets/icons/tailwind-logo.svg" alt="Skill Icon" class="h-6 w-6 rounded-b-md xl:h-10 xl:w-10" />
+                                <div>
+                                    <h4 class="text-sm font-semibold text-white">Tailwind</h4>
+                                    <p class="text-[10px] text-gray-400">CSS framework</p>
+                                </div>
+                            </div>
+                        </a>
                         <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="blank">
                             <div class="flex h-14 items-center justify-start space-x-2 rounded-md bg-stone-800 p-2 pr-5 transition-transform duration-200 ease-in-out hover:scale-110 xl:h-auto">
-                                <img src="./assets/image/profile.png" alt="Skill Icon" class="h-6 w-6 rounded-b-md xl:h-10 xl:w-10" />
+                                <img src="./assets/icons/js_logo.svg" alt="Skill Icon" class="h-6 w-6 rounded-md xl:h-10 xl:w-10" />
                                 <div>
                                     <h4 class="text-sm font-semibold text-white">JavaScript</h4>
                                     <p class="text-[10px] text-gray-400">Web programming</p>
@@ -138,9 +146,19 @@
                             </div>
                         </a>
 
+                        <a href="https://spring.io" target="blank">
+                            <div class="flex h-14 items-center justify-start space-x-2 rounded-md bg-stone-800 p-2 pr-5 transition-transform duration-200 ease-in-out hover:scale-110 xl:h-auto">
+                                <img src="./assets/icons/Spring_Boot.svg" alt="Skill Icon" class="h-6 w-6 rounded-b-md xl:h-10 xl:w-10" />
+                                <div>
+                                    <h4 class="text-sm font-semibold text-white">SpringBoot</h4>
+                                    <p class="text-[10px] text-gray-400">Java framework</p>
+                                </div>
+                            </div>
+                        </a>
+
                         <a href="https://www.php.net/docs.php" target="blank">
                             <div class="flex h-14 items-center justify-start space-x-2 rounded-md bg-stone-800 p-2 pr-5 transition-transform duration-200 ease-in-out hover:scale-110 xl:h-auto">
-                                <img src="./assets/image/profile.png" alt="Skill Icon" class="h-6 w-6 rounded-b-md xl:h-10 xl:w-10" />
+                                <img src="./assets/icons/PHP-logo.svg" alt="Skill Icon" class="h-6 w-6 rounded-md xl:h-10 xl:w-10" />
                                 <div>
                                     <h4 class="text-sm font-semibold text-white">PHP</h4>
                                     <p class="text-[10px] text-gray-400">Server-side scripting</p>
@@ -150,7 +168,7 @@
 
                         <a href="https://www.python.org/" target="blank">
                             <div class="flex h-14 items-center justify-start space-x-2 rounded-md bg-stone-800 p-2 pr-5 transition-transform duration-200 ease-in-out hover:scale-110 xl:h-auto">
-                                <img src="./assets/image/profile.png" alt="Skill Icon" class="h-6 w-6 rounded-b-md xl:h-10 xl:w-10" />
+                                <img src="./assets/icons/python-logo.svg" alt="Skill Icon" class="h-6 rounded-md xl:h-10" />
                                 <div>
                                     <h4 class="text-sm font-semibold text-white">Python</h4>
                                     <p class="text-[10px] text-gray-400">Versatyle Scripting</p>
@@ -160,7 +178,7 @@
 
                         <a href="https://docs.oracle.com/en/java/" target="blank">
                             <div class="flex h-14 items-center justify-start space-x-2 rounded-md bg-stone-800 p-2 pr-5 transition-transform duration-200 ease-in-out hover:scale-110 xl:h-auto">
-                                <img src="./assets/image/profile.png" alt="Skill Icon" class="h-6 w-6 rounded-b-md xl:h-10 xl:w-10" />
+                                <img src="./assets/icons/java-icon.svg" alt="Skill Icon" class="h-6 w-6 rounded-b-md xl:h-10 xl:w-10" />
                                 <div>
                                     <h4 class="text-sm font-semibold text-white">Java</h4>
                                     <p class="text-[10px] text-gray-400">Application development</p>
@@ -168,29 +186,9 @@
                             </div>
                         </a>
 
-                        <a href="https://spring.io" target="blank">
-                            <div class="flex h-14 items-center justify-start space-x-2 rounded-md bg-stone-800 p-2 pr-5 transition-transform duration-200 ease-in-out hover:scale-110 xl:h-auto">
-                                <img src="./assets/image/profile.png" alt="Skill Icon" class="h-6 w-6 rounded-b-md xl:h-10 xl:w-10" />
-                                <div>
-                                    <h4 class="text-sm font-semibold text-white">SpringBoot</h4>
-                                    <p class="text-[10px] text-gray-400">Java framework</p>
-                                </div>
-                            </div>
-                        </a>
-
-                        <a href="https://tailwindcss.com" target="blank">
-                            <div class="flex h-14 items-center justify-start space-x-2 rounded-md bg-stone-800 p-2 pr-5 transition-transform duration-200 ease-in-out hover:scale-110 xl:h-auto">
-                                <img src="./assets/image/profile.png" alt="Skill Icon" class="h-6 w-6 rounded-b-md xl:h-10 xl:w-10" />
-                                <div>
-                                    <h4 class="text-sm font-semibold text-white">Tailwind</h4>
-                                    <p class="text-[10px] text-gray-400">CSS framework</p>
-                                </div>
-                            </div>
-                        </a>
-
                         <a href="https://www.mysql.com/" target="blank">
                             <div class="flex h-14 items-center justify-start space-x-2 rounded-md bg-stone-800 p-2 pr-5 transition-transform duration-200 ease-in-out hover:scale-110 xl:h-auto">
-                                <img src="./assets/image/profile.png" alt="Skill Icon" class="h-6 w-6 rounded-b-md xl:h-10 xl:w-10" />
+                                <img src="./assets/icons/mysql-logo.svg" alt="Skill Icon" class="h-6 w-6 rounded-b-md xl:h-10 xl:w-10" />
                                 <div>
                                     <h4 class="text-sm font-semibold text-white">MySQL</h4>
                                     <p class="text-[10px] text-gray-400">Relational database</p>
@@ -200,7 +198,7 @@
 
                         <a href="https://figma.com" target="blank">
                             <div class="flex h-14 items-center justify-start space-x-2 rounded-md bg-stone-800 p-2 pr-5 transition-transform duration-200 ease-in-out hover:scale-110 xl:h-auto">
-                                <img src="./assets/image/profile.png" alt="Skill Icon" class="h-6 w-6 rounded-b-md xl:h-10 xl:w-10" />
+                                <img src="./assets/icons/Figma-logo.svg" alt="Skill Icon" class="h-6 w-6 rounded-b-md xl:h-10 xl:w-10" />
                                 <div>
                                     <h4 class="text-sm font-semibold text-white">Figma</h4>
                                     <p class="text-[10px] text-gray-400">Design tool</p>
@@ -210,7 +208,7 @@
 
                         <a href="https://github.com" target="blank">
                             <div class="flex h-14 items-center justify-start space-x-2 rounded-md bg-stone-800 p-2 pr-5 transition-transform duration-200 ease-in-out hover:scale-110 xl:h-auto">
-                                <img src="./assets/image/profile.png" alt="Skill Icon" class="h-6 w-6 rounded-b-md xl:h-10 xl:w-10" />
+                                <img src="./assets/icons/github_icon.png" alt="Skill Icon" class="h-6 w-6 rounded-b-md xl:h-10 xl:w-10" />
                                 <div>
                                     <h4 class="text-sm font-semibold text-white">GitHub</h4>
                                     <p class="text-[10px] text-gray-400">Version control</p>
@@ -220,7 +218,7 @@
 
                         <a href="https://learning.postman.com/docs/getting-started/introduction/" target="blank">
                             <div class="flex h-14 items-center justify-start space-x-2 rounded-md bg-stone-800 p-2 pr-5 transition-transform duration-200 ease-in-out hover:scale-110 xl:h-auto">
-                                <img src="./assets/image/profile.png" alt="Skill Icon" class="h-6 w-6 rounded-b-md xl:h-10 xl:w-10" />
+                                <img src="./assets/icons/postman-logo.svg" alt="Skill Icon" class="h-6 w-6 rounded-b-md xl:h-10 xl:w-10" />
                                 <div>
                                     <h4 class="text-sm font-semibold text-white">Postman</h4>
                                     <p class="text-[10px] text-gray-400">API testing</p>
@@ -230,35 +228,98 @@
 
                         <a href="https://cplusplus.com/" target="blank">
                             <div class="flex h-14 items-center justify-start space-x-2 rounded-md bg-stone-800 p-2 pr-5 transition-transform duration-200 ease-in-out hover:scale-110 xl:h-auto">
-                                <img src="./assets/image/profile.png" alt="Skill Icon" class="h-6 w-6 rounded-b-md xl:h-10 xl:w-10" />
+                                <img src="./assets/icons/C++_logo.svg" alt="Skill Icon" class="h-6 w-6 rounded-b-md xl:h-10 xl:w-10" />
                                 <div>
                                     <h4 class="text-sm font-semibold text-white">C++</h4>
-                                    <p class="text-[10px] text-gray-400">System Programming</p>
-                                </div>
-                            </div>
-                        </a>
-
-                        <a href="https://laravel.com" target="blank">
-                            <div class="flex h-14 items-center justify-start space-x-2 rounded-md bg-stone-800 p-2 pr-5 transition-transform duration-200 ease-in-out hover:scale-110 xl:h-auto">
-                                <img src="./assets/image/profile.png" alt="Skill Icon" class="h-6 w-6 rounded-b-md xl:h-10 xl:w-10" />
-                                <div>
-                                    <h4 class="text-sm font-semibold text-white">Laravel</h4>
-                                    <p class="text-[10px] text-gray-400">PHP Framework</p>
+                                    <p class="text-[10px] text-gray-400">Programming Languange</p>
                                 </div>
                             </div>
                         </a>
                     </div>
+                    <!-- Git, Render, OpenAPI, SwaggerUI, ReDoc, Docker, Canva, MS Word, Powerpoint, Excel -->
                     <p class="text-xs text-gray-400">And More...</p>
                     <div class="mt-2 mb-10 flex flex-wrap items-center justify-center space-x-4">
-                        <img src="./assets/image/profile.png" alt="Skill Icon" class="h-6 w-6 rounded-b-md transition-transform duration-200 ease-in-out hover:scale-120 xl:h-10 xl:w-10" />
-                        <img src="./assets/image/profile.png" alt="Skill Icon" class="h-6 w-6 rounded-b-md transition-transform duration-200 ease-in-out hover:scale-120 xl:h-10 xl:w-10" />
-                        <img src="./assets/image/profile.png" alt="Skill Icon" class="h-6 w-6 rounded-b-md transition-transform duration-200 ease-in-out hover:scale-120 xl:h-10 xl:w-10" />
-                        <img src="./assets/image/profile.png" alt="Skill Icon" class="h-6 w-6 rounded-b-md transition-transform duration-200 ease-in-out hover:scale-120 xl:h-10 xl:w-10" />
-                        <img src="./assets/image/profile.png" alt="Skill Icon" class="h-6 w-6 rounded-b-md transition-transform duration-200 ease-in-out hover:scale-120 xl:h-10 xl:w-10" />
-                        <img src="./assets/image/profile.png" alt="Skill Icon" class="h-6 w-6 rounded-b-md transition-transform duration-200 ease-in-out hover:scale-120 xl:h-10 xl:w-10" />
-                        <img src="./assets/image/profile.png" alt="Skill Icon" class="h-6 w-6 rounded-b-md transition-transform duration-200 ease-in-out hover:scale-120 xl:h-10 xl:w-10" />
-                        <img src="./assets/image/profile.png" alt="Skill Icon" class="h-6 w-6 rounded-b-md transition-transform duration-200 ease-in-out hover:scale-120 xl:h-10 xl:w-10" />
-                        <img src="./assets/image/profile.png" alt="Skill Icon" class="h-6 w-6 rounded-b-md transition-transform duration-200 ease-in-out hover:scale-120 xl:h-10 xl:w-10" />
+                        <a href="https://git-scm.com/" target="blank">
+                            <img
+                                src="./assets/icons/git-logo.svg"
+                                alt="Skill Icon"
+                                title="Git"
+                                class="h-6 w-6 transition-transform duration-200 ease-in-out hover:scale-120 xl:h-10 xl:w-10"
+                                data-tooltip="Git"
+                            />
+                        </a>
+                        <a href="https://render.com/" target="blank">
+                            <img
+                                src="./assets/icons/render-logo.svg"
+                                alt="Skill Icon"
+                                title="Render"
+                                class="h-5 transition-transform duration-200 ease-in-out hover:scale-120 xl:h-8"
+                                data-tooltip="Render"
+                            />
+                        </a>
+                        <a href="https://swagger.io/tools/swagger-ui/" target="blank">
+                            <img
+                                src="./assets/icons/swagger-logo.svg"
+                                alt="Skill Icon"
+                                title="SwaggerUI"
+                                class="h-6 w-6 rounded-b-md transition-transform duration-200 ease-in-out hover:scale-120 xl:h-10 xl:w-10"
+                                data-tooltip="SwaggerUI"
+                            />
+                        </a>
+                        <a href="https://www.docker.com/" target="blank">
+                            <img
+                                src="./assets/icons/docker-logo.svg"
+                                alt="Skill Icon"
+                                title="Docker"
+                                class="h-6 w-6 rounded-b-md transition-transform duration-200 ease-in-out hover:scale-120 xl:h-10 xl:w-10"
+                                data-tooltip="Docker"
+                            />
+                        </a>
+                        <a href="https://www.canva.com/" target="blank">
+                            <img
+                                src="./assets/icons/canva-logo.svg"
+                                alt="Skill Icon"
+                                title="Canva"
+                                class="h-6 w-6 rounded-b-md transition-transform duration-200 ease-in-out hover:scale-120 xl:h-10 xl:w-10"
+                                data-tooltip="Canva"
+                            />
+                        </a>
+                        <a href="https://www.microsoft.com/en-us/microsoft-365/word" target="blank">
+                            <img
+                                src="./assets/icons/msword-logo.svg"
+                                alt="Skill Icon"
+                                title="MS Word"
+                                class="h-6 w-6 rounded-b-md transition-transform duration-200 ease-in-out hover:scale-120 xl:h-10 xl:w-10"
+                                data-tooltip="MS Word"
+                            />
+                        </a>
+                        <a href="https://www.microsoft.com/en-us/microsoft-365/powerpoint" target="blank">
+                            <img
+                                src="./assets/icons/powerpoint-logo.svg"
+                                alt="Skill Icon"
+                                title="PowerPoint"
+                                class="h-6 w-6 rounded-b-md transition-transform duration-200 ease-in-out hover:scale-120 xl:h-10 xl:w-10"
+                                data-tooltip="PowerPoint"
+                            />
+                        </a>
+                        <a href="https://www.microsoft.com/en-us/microsoft-365/excel" target="blank">
+                            <img
+                                src="./assets/icons/excel-logo.svg"
+                                alt="Skill Icon"
+                                title="Excel"
+                                class="h-6 w-6 rounded-b-md transition-transform duration-200 ease-in-out hover:scale-120 xl:h-10 xl:w-10"
+                                data-tooltip="Excel"
+                            />
+                        </a>
+                        <a href="https://vaadin.com/" target="blank">
+                            <img
+                                src="./assets/icons/vaadin-logo.svg"
+                                alt="Skill Icon"
+                                title="Vaadin"
+                                class="h-6 w-6 rounded-b-md transition-transform duration-200 ease-in-out hover:scale-120 xl:h-10 xl:w-10"
+                                data-tooltip="Vaadin"
+                            />
+                        </a>
                     </div>
                 </div>
             </div>
@@ -269,32 +330,107 @@
             <hr class="mb-15 w-full border-1 border-orange-900" />
             <div class="flex w-full flex-col items-center justify-start">
                 <h1 class="text-4xl font-bold text-orange-600">Projects</h1>
-                <p class="mt-2 text-base font-semibold text-gray-300">Here are some of my recent projects.</p>
+                <p class="mt-2 text-base font-semibold text-gray-300">Explore my latest projects and accomplishments.</p>
 
-                <div class="flex w-full flex-col items-center justify-center">
-                    <div class="xl:2-250 mt-5 flex h-75 w-200 items-center justify-center">
-                        <img src="./assets/image/profile.png" alt="Project Image" class="h-full w-1/2 rounded-md bg-amber-200 px-2 py-4" />
+                <!-- Projects Card -->
+                <!-- Esurat Card -->
+                <div class="mb-5 flex w-full flex-col items-center justify-center">
+                    <div class="mt-5 flex h-75 items-center justify-center">
+                        <img src="./assets/image/eSurat-project.png" alt="Project Image" class="h-full w-1/2 rounded-md bg-amber-200" />
                         <div class="ml-5 flex h-full w-1/2 flex-col items-start justify-start">
                             <div>
-                                <h2 class="flex items-end justify-between text-lg font-bold text-white xl:text-2xl">
-                                    <span>RoomQue.my.id</span>
-                                    <span class="text-sm"> June 2025</span>
+                                <h2 class="flex items-end justify-between text-base font-bold text-white xl:text-2xl">
+                                    <a href="https://e-surat.tenginbaru.my.id/" target="_blank">
+                                        <span class="hover:text-orange-500 hover:underline">E-Surat Tengin Baru</span>
+                                    </a>
+
+                                    <span class="xl:text:sm text-xs"> July 2025</span>
                                 </h2>
-                                <p class="mt-4 text-justify text-sm text-stone-400">
-                                    Roomque is a website for room reservation and management at the Technic Faculties in Mulawarman University, I&#39;m the leader of the group that built the FrontEnd
-                                    with Vaadin to make a seamless and interactive user experience. The backend is powered by SpringBoot to create a RESTful API that ensures robust and scalable
-                                    server-side operations.
+                                <p class="mt-4 text-justify text-xs text-stone-400 xl:text-sm">
+                                    Website for letter submission services in Tengin Baru Village, contributed with the TGTV team at Mulawarman University to build with Next.js. Deployed on our Debian
+                                    server for efficient and reliable hosting.
+                                </p>
+                            </div>
+                            <div class="flex h-full w-full flex-col items-start justify-end space-x-2">
+                                <div class="my-2 flex flex-row items-start justify-end space-x-2">
+                                    <img
+                                        src="./assets/icons/nextjs-logo.svg"
+                                        alt="Skill Icon"
+                                        title="Next.js"
+                                        class="h-4 w-4 rounded-md transition-transform duration-200 ease-in-out hover:scale-120 xl:h-7 xl:w-7"
+                                        data-tooltip="Next.js"
+                                    />
+                                    <img
+                                        src="./assets/icons/tailwind-logo.svg"
+                                        alt="Skill Icon"
+                                        title="Tailwind CSS"
+                                        class="h-4 w-4 rounded-md transition-transform duration-200 ease-in-out hover:scale-120 xl:h-7 xl:w-7"
+                                        data-tooltip="Tailwind CSS"
+                                    />
+                                    <img
+                                        src="./assets/icons/debian-logo.svg"
+                                        alt="Skill Icon"
+                                        title="Debian"
+                                        class="h-4 w-4 rounded-md transition-transform duration-200 ease-in-out hover:scale-120 xl:h-7 xl:w-7"
+                                        data-tooltip="Debian"
+                                    />
+                                </div>
+                                <div class="items my-2 flex flex-row flex-wrap justify-start space-y-2 space-x-2">
+                                    <a href="https://e-surat.tenginbaru.my.id" target="_blank">
+                                        <button class="flex items-center rounded-md bg-stone-700 px-3 py-1 text-xs font-semibold text-white transition duration-200 ease-in-out hover:bg-orange-700">
+                                            <span class="mr-1 inline-block h-2 w-2 animate-[pulse_1.5s_infinite] justify-center rounded-full bg-green-500"></span>
+                                            Live Demo
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Roomque Card -->
+                <div class="mb-5 flex w-full flex-col items-center justify-center">
+                    <div class="mt-5 flex h-75 items-center justify-center">
+                        <img src="./assets/image/roomque-project.png" alt="Project Image" class="h-full w-1/2 rounded-md bg-amber-200" />
+                        <div class="ml-5 flex h-full w-1/2 flex-col items-start justify-start">
+                            <div>
+                                <h2 class="flex items-end justify-between text-base font-bold text-white xl:text-2xl">
+                                    <a href="https://www.roomque.my.id" target="_blank">
+                                        <span class="hover:text-orange-500 hover:underline">RoomQue</span>
+                                    </a>
+
+                                    <span class="xl:text:sm text-xs"> June 2025</span>
+                                </h2>
+                                <p class="mt-4 text-justify text-xs text-stone-400 xl:text-sm">
+                                    A website for room reservation and management system at the Technic Faculties in Mulawarman University, utilizing web services with RESTful API.
                                 </p>
                             </div>
 
-                            <div class="mt-2 flex h-full w-full flex-col items-start justify-end space-x-2">
-                                <div class="mt-2 flex flex-row items-start justify-end space-x-2">
-                                    <img src="./assets/image/profile.png" alt="Skill Icon" class="h-6 w-6 rounded-b-md xl:h-10 xl:w-10" />
-                                    <img src="./assets/image/profile.png" alt="Skill Icon" class="h-6 w-6 rounded-b-md xl:h-10 xl:w-10" />
-                                    <img src="./assets/image/profile.png" alt="Skill Icon" class="h-6 w-6 rounded-b-md xl:h-10 xl:w-10" />
-                                    <img src="./assets/image/profile.png" alt="Skill Icon" class="h-6 w-6 rounded-b-md xl:h-10 xl:w-10" />
-                                </div>
+                            <div class="flex h-full w-full flex-col items-start justify-end space-x-2">
                                 <div class="my-2 flex flex-row items-start justify-end space-x-2">
+                                    <img
+                                        src="./assets/icons/Spring_Boot.svg"
+                                        alt="Skill Icon"
+                                        title="SpringBoot"
+                                        class="h-4 w-4 rounded-md transition-transform duration-200 ease-in-out hover:scale-120 xl:h-7 xl:w-7"
+                                        data-tooltip="SpringBoot"
+                                    />
+                                    <img
+                                        src="./assets/icons/vaadin-logo.svg"
+                                        alt="Skill Icon"
+                                        title="Vaadin"
+                                        class="h-4 w-4 rounded-md transition-transform duration-200 ease-in-out hover:scale-120 xl:h-7 xl:w-7"
+                                        data-tooltip="Vaadin"
+                                    />
+                                    <img
+                                        src="./assets/icons/java-icon.svg"
+                                        alt="Skill Icon"
+                                        title="Java"
+                                        class="h-4 w-4 rounded-md transition-transform duration-200 ease-in-out hover:scale-120 xl:h-7 xl:w-7"
+                                        data-tooltip="Java"
+                                    />
+                                </div>
+                                <div class="items my-2 flex flex-row flex-wrap justify-start space-y-2 space-x-2">
                                     <a href="https://github.com/Eu4ngelion/E-Room-FT" target="_blank">
                                         <button class="rounded-md bg-stone-700 px-3 py-1 text-xs font-semibold text-white transition duration-200 ease-in-out hover:bg-orange-700">Github</button>
                                     </a>
@@ -311,17 +447,264 @@
                             </div>
                         </div>
                     </div>
+                </div>
 
-                    <!-- <div class="mt-4 grid w-full grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:gap-8">
-                        <div class="h-50 w-full bg-red-400"></div>
-                        <div class="h-50 w-full bg-red-400"></div>
-                        <div class="h-50 w-full bg-red-400"></div>
-                        <div class="h-50 w-full bg-red-400"></div>
-                        <div class="h-50 w-full bg-red-400"></div>
-                        <div class="h-50 w-full bg-red-400"></div>
-                    </div> -->
+                <!-- Tukang Laundry Card -->
+                <div class="mb-5 flex w-full flex-col items-center justify-center">
+                    <div class="mt-5 flex h-75 items-center justify-center">
+                        <img src="./assets/image/tukanglaundry.png" alt="Project Image" class="h-full w-1/2 rounded-md bg-amber-200" />
+                        <div class="ml-5 flex h-full w-1/2 flex-col items-start justify-start">
+                            <div>
+                                <h2 class="flex items-end justify-between text-base font-bold text-white xl:text-2xl">
+                                    <a href="https://github.com/MatchaTi/Tukang-Laundry" target="blank">
+                                        <span class="hover:text-orange-500 hover:underline">Tukang Laundry</span>
+                                    </a>
+                                    <span class="xl:text:sm text-xs"> May 2025</span>
+                                </h2>
+                                <p class="mt-4 text-justify text-xs text-stone-400 xl:text-sm">
+                                    Sistem untuk kasir pada layanan laundry, saya berperan sebagai backend developer pada tim yang mengembangkan RESTful API.
+                                </p>
+                            </div>
+
+                            <div class="flex h-full w-full flex-col items-start justify-end space-x-2">
+                                <div class="mt-2 flex flex-row items-start justify-end space-x-2">
+                                    <img
+                                        src="./assets/icons/Spring_Boot.svg"
+                                        alt="Skill Icon"
+                                        title="SpringBoot"
+                                        class="h-4 w-4 rounded-md transition-transform duration-200 ease-in-out hover:scale-120 xl:h-7 xl:w-7"
+                                        data-tooltip="SpringBoot"
+                                    />
+                                    <img
+                                        src="./assets/icons/java-icon.svg"
+                                        alt="Skill Icon"
+                                        title="Java"
+                                        class="h-4 w-4 rounded-md transition-transform duration-200 ease-in-out hover:scale-120 xl:h-7 xl:w-7"
+                                        data-tooltip="Java"
+                                    />
+                                    <img
+                                        src="./assets/icons/postman-logo.svg"
+                                        alt="Skill Icon"
+                                        title="Postman"
+                                        class="h-4 w-4 rounded-md transition-transform duration-200 ease-in-out hover:scale-120 xl:h-7 xl:w-7"
+                                        data-tooltip="Postman"
+                                    />
+                                </div>
+                                <div class="items my-2 flex flex-row flex-wrap justify-start space-y-2 space-x-2">
+                                    <a href="https://github.com/MatchaTi/Tukang-Laundry" target="_blank">
+                                        <button class="rounded-md bg-stone-700 px-3 py-1 text-xs font-semibold text-white transition duration-200 ease-in-out hover:bg-orange-700">Github</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- BMI Calculator -->
+                <div class="mb-5 flex w-full flex-col items-center justify-center">
+                    <div class="mt-5 flex h-75 items-center justify-center">
+                        <img src="./assets/image/bmi-project.png" alt="Project Image" class="h-full w-1/2 rounded-md bg-amber-200" />
+                        <div class="ml-5 flex h-full w-1/2 flex-col items-start justify-start">
+                            <div>
+                                <h2 class="flex items-end justify-between text-base font-bold text-white xl:text-2xl">
+                                    <a href="https://github.com/Eu4ngelion/PA_Pemvis" target="_blank">
+                                        <span>BMI Calculator</span>
+                                    </a>
+                                    <span class="xl:text:sm text-xs"> May 2025</span>
+                                </h2>
+                                <p class="mt-4 text-justify text-xs text-stone-400 xl:text-sm">
+                                    Windows Forms project built using .NET Framework. The project leverages Visual Studio for development and Figma for UI/UX design prototyping. This application
+                                    calculates Body Mass Index (BMI) based on weight, height, and age, providing insights into health status and recommendations for improvement.
+                                </p>
+                            </div>
+
+                            <div class="flex h-full w-full flex-col items-start justify-end space-x-2">
+                                <div class="my-2 flex flex-row items-start justify-end space-x-2">
+                                    <img
+                                        src="./assets/icons/dotnet-logo.svg"
+                                        alt="Skill Icon"
+                                        title=".NET"
+                                        class="h-4 w-4 rounded-md transition-transform duration-200 ease-in-out hover:scale-120 xl:h-7 xl:w-7"
+                                        data-tooltip=".NET"
+                                    />
+                                    <img
+                                        src="./assets/icons/mysql-logo.svg"
+                                        alt="Skill Icon"
+                                        title="SQL"
+                                        class="h-4 w-4 rounded-md transition-transform duration-200 ease-in-out hover:scale-120 xl:h-7 xl:w-7"
+                                        data-tooltip="MySQL"
+                                    />
+                                    <img
+                                        src="./assets/icons/figma-logo.svg"
+                                        alt="Skill Icon"
+                                        title="Figma"
+                                        class="h-4 w-4 rounded-md transition-transform duration-200 ease-in-out hover:scale-120 xl:h-7 xl:w-7"
+                                        data-tooltip="Figma"
+                                    />
+                                </div>
+                                <div class="items my-2 flex flex-row flex-wrap justify-start space-y-2 space-x-2">
+                                    <a href="https://github.com/Eu4ngelion/PA_Pemvis" target="_blank">
+                                        <button class="rounded-md bg-stone-700 px-3 py-1 text-xs font-semibold text-white transition duration-200 ease-in-out hover:bg-orange-700">Github</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Koruko Card -->
+            <div class="mb-5 flex w-full flex-col items-center justify-center">
+                <div class="mt-5 flex h-75 items-center justify-center">
+                    <img src="./assets/image/koruko-project.png" alt="Koruko Project" class="h-full w-1/2 rounded-md bg-amber-200" />
+                    <div class="ml-5 flex h-full w-1/2 flex-col items-start justify-start">
+                        <div>
+                            <h2 class="flex items-end justify-between text-base font-bold text-white xl:text-2xl">
+                                <a href="https://github.com/Eu4ngelion/Proyek_Koruko" target="_blank">
+                                    <span class="hover:text-orange-500 hover:underline">Koruko</span>
+                                </a>
+
+                                <span class="xl:text:sm text-xs"> December 2024</span>
+                            </h2>
+                            <p class="mt-4 text-justify text-xs text-stone-400 xl:text-sm">
+                                Koruko is a website for selling and renting shop houses, providing a place for users to browse, list, and manage properties.
+                            </p>
+                        </div>
+
+                        <div class="flex h-full w-full flex-col items-start justify-end space-x-2">
+                            <div class="my-2 flex flex-row items-start justify-end space-x-2">
+                                <img
+                                    src="./assets/icons/html-logo.svg"
+                                    alt="Skill Icon"
+                                    title="HTML"
+                                    class="h-4 w-4 rounded-md transition-transform duration-200 ease-in-out hover:scale-120 xl:h-7 xl:w-7"
+                                    data-tooltip="HTML"
+                                />
+                                <img
+                                    src="./assets/icons/CSS_logo.svg"
+                                    alt="Skill Icon"
+                                    title="CSS"
+                                    class="h-4 w-4 rounded-md transition-transform duration-200 ease-in-out hover:scale-120 xl:h-7 xl:w-7"
+                                    data-tooltip="CSS"
+                                />
+                                <img
+                                    src="./assets/icons/js_logo.svg"
+                                    alt="Skill Icon"
+                                    title="JavaScript"
+                                    class="h-4 w-4 rounded-md transition-transform duration-200 ease-in-out hover:scale-120 xl:h-7 xl:w-7"
+                                    data-tooltip="JavaScript"
+                                />
+                            </div>
+                            <div class="items my-2 flex flex-row flex-wrap justify-start space-y-2 space-x-2">
+                                <a href="https://github.com/Eu4ngelion/Proyek_Koruko" target="_blank">
+                                    <button class="rounded-md bg-stone-700 px-3 py-1 text-xs font-semibold text-white transition duration-200 ease-in-out hover:bg-orange-700">Github</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Haven Media -->
+            <div class="mb-5 flex w-full flex-col items-center justify-center">
+                <div class="mt-5 flex h-75 items-center justify-center">
+                    <img src="./assets/image/haven-media-project.png" alt="Koruko Project" class="h-full w-1/2 rounded-md bg-amber-200" />
+                    <div class="ml-5 flex h-full w-1/2 flex-col items-start justify-start">
+                        <div>
+                            <h2 class="flex items-end justify-between text-base font-bold text-white xl:text-2xl">
+                                <a href="https://github.com/itsukikunn/PA_PemWeb" target="_blank">
+                                    <span class="hover:text-orange-500 hover:underline">Haven Media</span>
+                                </a>
+
+                                <span class="xl:text:sm text-xs"> November 2024</span>
+                            </h2>
+                            <p class="mt-4 text-justify text-xs text-stone-400 xl:text-sm">
+                                Haven Media is a website for purchasing and renting books, a platform to explore, buy, and manage their book collections.
+                            </p>
+                        </div>
+
+                        <div class="flex h-full w-full flex-col items-start justify-end space-x-2">
+                            <div class="my-2 flex flex-row items-start justify-end space-x-2">
+                                <img
+                                    src="./assets/icons/html-logo.svg"
+                                    alt="Skill Icon"
+                                    title="HTML"
+                                    class="h-4 w-4 rounded-md transition-transform duration-200 ease-in-out hover:scale-120 xl:h-7 xl:w-7"
+                                    data-tooltip="HTML"
+                                />
+                                <img
+                                    src="./assets/icons/CSS_logo.svg"
+                                    alt="Skill Icon"
+                                    title="CSS"
+                                    class="h-4 w-4 rounded-md transition-transform duration-200 ease-in-out hover:scale-120 xl:h-7 xl:w-7"
+                                    data-tooltip="CSS"
+                                />
+                                <img
+                                    src="./assets/icons/js_logo.svg"
+                                    alt="Skill Icon"
+                                    title="JavaScript"
+                                    class="h-4 w-4 rounded-md transition-transform duration-200 ease-in-out hover:scale-120 xl:h-7 xl:w-7"
+                                    data-tooltip="JavaScript"
+                                />
+                            </div>
+                            <div class="items my-2 flex flex-row flex-wrap justify-start space-y-2 space-x-2">
+                                <a href="https://github.com/Eu4ngelion/Proyek_Koruko" target="_blank">
+                                    <button class="rounded-md bg-stone-700 px-3 py-1 text-xs font-semibold text-white transition duration-200 ease-in-out hover:bg-orange-700">Github</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
+        <script>
+            const imagesESurat = ["./assets/image/eSurat-project.png", "./assets/image/eSurat-project2.png", "./assets/image/eSurat-project3.png"];
+            const imagesRoomque = ["./assets/image/roomque-project.png", "./assets/image/roomque-project2.png", "./assets/image/roomque-project3.png"];
+            const imagesKoruko = ["./assets/image/koruko-project.png", "./assets/image/koruko-project2.png", "./assets/image/koruko-project3.png"];
+            const imagesHavenMedia = ["./assets/image/haven-media-project.png", "./assets/image/haven-media-project2.png", "./assets/image/haven-media-project3.png"];
+            const imagesBMI = ["./assets/image/bmi-project.png", "./assets/image/bmi-project2.png", "./assets/image/bmi-project3.png"];
+
+            // Get the image element
+            const imageElementEsurat = document.querySelector('img[src="./assets/image/eSurat-project.png"]');
+            const imageElementRoomque = document.querySelector('img[src="./assets/image/roomque-project.png"]');
+            const imageElementKoruko = document.querySelector('img[src="./assets/image/koruko-project.png"]');
+            const imageElementHavenMedia = document.querySelector('img[src="./assets/image/haven-media-project.png"]');
+            const imageElementBMI = document.querySelector('img[src="./assets/image/bmi-project.png"]');
+
+            let A = 0;
+            let B = 0;
+            let C = 0;
+            let D = 0;
+            let E = 0;
+
+            // Function to change the image
+            function changeImageEsurat() {
+                A = (A + 1) % imagesESurat.length;
+                imageElementEsurat.src = imagesESurat[A];
+            }
+            function changeImageRoomque() {
+                B = (B + 1) % imagesRoomque.length;
+                imageElementRoomque.src = imagesRoomque[B];
+            }
+            function changeImageKoruko() {
+                C = (C + 1) % imagesKoruko.length;
+                imageElementKoruko.src = imagesKoruko[C];
+            }
+            function changeImageHavenMedia() {
+                D = (D + 1) % imagesHavenMedia.length;
+                imageElementHavenMedia.src = imagesHavenMedia[D];
+            }
+            function changeImageBMI() {
+                E = (E + 1) % imagesBMI.length;
+                imageElementBMI.src = imagesBMI[E];
+            }
+
+            // Change the image every 3 seconds
+            setInterval(changeImageEsurat, 2000);
+            setInterval(changeImageRoomque, 2000);
+            setInterval(changeImageKoruko, 2000);
+            setInterval(changeImageHavenMedia, 2000);
+            setInterval(changeImageBMI, 2000);
+        </script>
     </body>
 </html>
